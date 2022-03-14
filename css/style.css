@@ -5,11 +5,12 @@
 }
 
 .row {
-  background-color: #006cfa;
+  /* background-color: #006cfa; */
   color: white;
 }
 
 [class*="col-"] {
+  background-color: #006cfa;
   border: 1px solid white;
   height: 50px;
   display: flex;
@@ -30,4 +31,8 @@
 
 .px10 {
   padding: 0 10px;
+}
+
+[class*="col-offset"] {
+  border: none;
 }
