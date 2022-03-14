@@ -19,5 +19,5 @@
 
 [class*="col-"] > [class*="col-"] {
   border: 2px solid white;
-  background-color: rgb(230, 148, 148);
+  background-color: #00e165;
 }
