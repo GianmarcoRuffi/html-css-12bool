@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  background-color: #006cfa;
+  color: white;
+}
+
+[class*="col-"] {
+  border: 1px solid white;
+  height: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[class*="col-"] > [class*="col-"] {
+  border: 2px solid white;
+  background-color: rgb(230, 148, 148);
+}
