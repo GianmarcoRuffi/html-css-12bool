@@ -11,13 +11,23 @@
 
 [class*="col-"] {
   border: 1px solid white;
-  height: 175px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 [class*="col-"] > [class*="col-"] {
-  border: 2px solid white;
   background-color: #00e165;
+  margin: 1px;
+  height: 30px;
+  border: none;
+}
+
+.container.section {
+  margin-top: 20px;
+}
+
+.px10 {
+  padding: 0 10px;
 }
